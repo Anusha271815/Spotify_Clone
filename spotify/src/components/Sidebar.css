@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    color: white;
+}
+#library{
+    margin: 10px;
+    border-radius: 10px;
+    height: 96%;
+    width: 95%;
+    background-color: rgb(22, 22, 22);
+}
+
+#lib_header{
+    display: flex;
+    
+    align-items:baseline;
+    gap: 7px;
+    padding:0px 20px ;
+    width:270px;
+    img{
+        height: 12px;
+        width:16px;
+        display: none;
+    }
+    p{
+        font-size:17px;
+        font-weight: 700;
+    }
+}
+
+#library:hover{
+    #lib_header img{
+        display: block;
+        
+    }
+}
+#lib_cont{
+padding-right: 18px;
+}
+
+.btn{
+    border-radius: 20px;
+    background-color: rgb(46, 46, 46);
+    transition: all 0.3s;
+    border:none;
+   
+}
+
+.btn:hover{
+    background-color: rgb(59, 58, 58);
+}
+button{
+    font-weight: 700;
+}
