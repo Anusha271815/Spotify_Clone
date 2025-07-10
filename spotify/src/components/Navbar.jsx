@@ -21,9 +21,8 @@ const Navbar = () => {
         <div id="right">
           <div className='d-none d-xl-block btn btn-light text-dark rounded-pill explore'>Explore Premium</div>
           <div className='d-flex install'><span className='icon2'><FaDownload/></span>Install App</div>
-          <div className='icon2 install' title='Notifications'><FaBell/></div>
-          <div id="friends"><img src={friends} alt="" /></div>
-          <div><FaUser/></div>
+          <div className='icon2 install' title='Notifications'><FaBell size={24}/></div>
+          <div className='user'><FaUser/></div>
             
 
         </div>

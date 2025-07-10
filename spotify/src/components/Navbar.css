@@ -15,12 +15,14 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    padding-bottom: 0px ;
 }
 #left{
     display: flex;
     justify-content:center;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
+    margin-left: 15px;
 }
 .icons{
     font-size:40px;
@@ -35,12 +37,12 @@ nav{
     gap: 6px;
     color: white;
     border-radius: 30px;
-    background-color: rgb(55, 54, 54);
+    background-color: rgb(35, 35, 35);
     input{
-        background-color: rgb(55, 54, 54);
+        background-color: rgb(35, 35, 35);
         border: none;
-        color: white;
-        width: 250px;
+        width: 350px;
+        font-size: large;
     }
     input:focus {
     border: none;
@@ -51,7 +53,7 @@ nav{
     display: flex;
     justify-content:center;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
     margin-right: 10px;
     padding-left: 10px;
     width: fit-content;
@@ -78,4 +80,10 @@ nav{
     opacity: 1;
     cursor: pointer;
 
+}
+.user{
+    border: 2px solid white;
+    width:27px;
+    border-radius: 50%;
+    text-align: center;
 }

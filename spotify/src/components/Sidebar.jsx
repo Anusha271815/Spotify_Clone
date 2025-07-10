@@ -14,25 +14,29 @@ const Sidebar = () => {
             <div className="d-flex justify-content-between align-items-baseline m-auto pt-1 pb-1 mb-3">
                 
                 <div id="lib_header" className="d-flex align-items-baseline m-auto">
-                <img src={library} alt="Library" style={{ height: '24px', marginRight: '8px' }} />
-                <p className="mb-0 text-white">Your Library</p>
+                    <img src={library} alt="Library" style={{ height: '24px', marginRight: '8px' }} />
+                    <p className="mb-0 text-white">Your Library</p>
                 </div>
 
                 <div className="d-flex align-items-baseline m-auto" id="lib_cont">
-                <button className="btn btn-secondary d-flex align-items-baseline">
+                <button className="btn btn-secondary d-flex align-items-baseline lib_button">
                     <FaPlus size={15} className="me-1" />
                     <span className="align-baseline">Create</span>
                 </button>
                 </div>
              </div>
 
-            <div className='d-flex mb-3 gap-2'>
-                <button className="btn btn-secondary d-flex align-items-baseline">
-                    <span className="align-baseline">Playlist</span>
-                </button>
-                <button className="btn btn-secondary d-flex align-items-baseline">
-                    <span className="align-baseline">Artist</span>
-                </button>
+            <div className=' mb-5 ' id="playlist">
+                <div className='crew'>
+                    <h6>Create your first Playlist</h6>
+                    <p>It's easy we'll help you</p>
+                    <button className='btn btn-light rounded-pill'>Create Playlist</button>
+                </div>
+                <div className='crew'>
+                    <h6>Let's find some podecasts to follow</h6>
+                    <p>We'll keep you updated on new episodes</p>
+                    <button className='btn btn-light rounded-pill'>Browse podcasts</button>
+                </div>
             </div>
 
             <div></div>

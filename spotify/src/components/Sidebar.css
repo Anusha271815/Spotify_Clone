@@ -3,20 +3,20 @@
     color: white;
 }
 #library{
-    margin: 10px;
+    margin: 5px;
     border-radius: 10px;
     height: 96%;
-    width: 95%;
-    background-color: rgb(22, 22, 22);
+    width: 97%;
+    background-color: rgb(24, 24, 24);
+    padding: 10px;
 }
 
 #lib_header{
     display: flex;
-    
     align-items:baseline;
     gap: 7px;
     padding:0px 20px ;
-    width:270px;
+    width:210px;
     img{
         height: 12px;
         width:16px;
@@ -38,17 +38,46 @@
 padding-right: 18px;
 }
 
-.btn{
+.lib_button{
     border-radius: 20px;
-    background-color: rgb(46, 46, 46);
+    width: 6.2rem;
+    background-color: rgb(35, 35, 35);
     transition: all 0.3s;
     border:none;
    
 }
 
-.btn:hover{
+.lib_button:hover{
     background-color: rgb(59, 58, 58);
 }
 button{
     font-weight: 700;
+}
+#playlist{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+.crew{
+    height: fit-content;
+    margin-bottom: 25px;
+    width: 320px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: rgba(35, 35, 35);
+    h6{
+        font-size: 1.1rem;
+        font-weight: 700;
+    }
+    p{
+        font-weight: 500;
+    }
+    button{
+        font-weight: 700;
+    }
+    button:hover{
+        transform: scale(1.05);
+    }
 }
