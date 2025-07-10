@@ -1,7 +1,7 @@
 import React from 'react';
 import './Navbar.css';
 import { FaSearch, FaSpotify,FaHome,FaDownload ,FaBell ,FaUser} from 'react-icons/fa';
-import friends from '../assets/friends.png';
+
 
 
 const Navbar = () => {

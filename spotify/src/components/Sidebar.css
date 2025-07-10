@@ -7,7 +7,7 @@
     border-radius: 10px;
     height: 96%;
     width: 97%;
-    background-color: rgb(24, 24, 24);
+    background-color: rgb(18, 18, 18);
     padding: 10px;
 }
 
@@ -16,7 +16,7 @@
     align-items:baseline;
     gap: 7px;
     padding:0px 20px ;
-    width:210px;
+    width:175px;
     img{
         height: 12px;
         width:16px;
@@ -63,10 +63,10 @@ button{
 .crew{
     height: fit-content;
     margin-bottom: 25px;
-    width: 320px;
+    width: 290px;
     padding: 20px;
-    border-radius: 15px;
-    background-color: rgba(35, 35, 35);
+    border-radius: 10px;
+    background-color: rgb(32, 32, 32);
     h6{
         font-size: 1.1rem;
         font-weight: 700;
@@ -76,6 +76,7 @@ button{
     }
     button{
         font-weight: 700;
+        margin-top: 5px;
     }
     button:hover{
         transform: scale(1.05);

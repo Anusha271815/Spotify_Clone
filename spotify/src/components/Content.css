@@ -1,11 +1,14 @@
 #content{
-    background-color: rgb(33, 33, 33);
+    background-color: rgb(28, 28, 28);
     border-radius: 7px;
     margin: 2px 2px 2px 0px;
 }
 #container{
-    padding: 5px 5px 5px 14px; 
+    padding: 5px 5px 5px 19px; 
     /* background-color: rgb(58, 57, 57); */
+}
+#bit{
+    position: fixed;
 }
 #bit button{
     background-color:rgb(53, 52, 52) ;
@@ -21,6 +24,8 @@
 }
 #charts{
     margin-top:37px ;
+    position: relative;
+    top:40px;
     h3{
         font-weight: 650;
     }
@@ -37,11 +42,13 @@
     }
 }
 .scroll-container {
+  position: relative;
+  left:-10px;
   display: flex;
   flex-direction: row;
   overflow-x: auto;
   margin-left: 0;
-  gap: 5px;
+  gap: 4px;
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* IE/Edge */
 }
@@ -52,10 +59,10 @@
 
 .card-item {
   flex-shrink: 0; /* Prevent shrinking */
-  width: 200px;
-  padding: 5px;
+  width: 190px;
+  padding: 10px;
   p{
-    font-weight: 500;
+    font-weight: 450;
     opacity: 0.7;
   }
 }
@@ -68,24 +75,17 @@
 
 .card-item img {
   height: 170px;
-  width: 180px;
+  width: 170px;
   object-fit: cover;
+  border-radius: 10px;
 }
 .card-item .overlay{
-    top:112px;
+    top:122px;
     left: 110px;
     display: none;
-    animation:top 0.5s ease-out ;
+    transform: translateY(10px);
     img{
         height: 53px;
         width: 53px;
-    }
-}
-@keyframes top{
-    from{
-        transform: translateY(-10);
-    }
-    to{
-        transform: translateY(0);
     }
 }
