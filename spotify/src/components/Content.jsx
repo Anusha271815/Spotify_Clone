@@ -62,23 +62,23 @@ const Content = () => {
       text: 'The hottest tracks in India.cover:Ed...',
     },
     {
-      image: 'https://via.placeholder.com/150',
+      image: card4,
       text: 'Catch the hottest punjabi tracks.Cover...',
     },
     {
-      image: 'https://via.placeholder.com/150',
+      image: card5,
       text: 'This is card 3',
     },
     {
-      image: 'https://via.placeholder.com/150',
+      image: card9,
       text: 'This is card 4',
     },
     {
-      image: 'https://via.placeholder.com/150',
+      image: card10,
       text: 'This is card 5',
     },
     {
-      image: 'https://via.placeholder.com/150',
+      image:card1,
       text: 'This is card 6',
     },
     {
