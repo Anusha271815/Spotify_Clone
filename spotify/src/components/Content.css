@@ -1,7 +1,8 @@
-#content{
+#content1{
     background-color: rgb(28, 28, 28);
     border-radius: 7px;
-    margin: 2px 2px 2px 0px;
+    margin: 2px 2px 0px 0px;
+   
 }
 #container{
     padding: 5px 5px 5px 19px; 
@@ -89,3 +90,31 @@
         width: 53px;
     }
 }
+#Footer {
+    margin-top: 170px;
+    margin-bottom: 100px;
+    h6{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        opacity: 0.7;
+
+    }
+    a:hover{
+        opacity: 1;
+        text-decoration: underline rgb(158, 158, 158);
+    }
+}
+.foot a,.copy{
+    text-decoration: none;
+        color: white;
+        font-size: 16px;
+        opacity: 0.7;
+}
+.foot a:hover{
+        opacity: 1;
+    }
