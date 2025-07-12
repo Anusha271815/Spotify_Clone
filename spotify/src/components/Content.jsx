@@ -1,5 +1,11 @@
 import React from 'react';
 import './Content.css';
+import {
+  FaInstagram,
+  FaTwitter,
+  FaFacebook
+} from "react-icons/fa";
+
 import musicoverlay from '../assets/play_musicbar.png';
 import card1 from '../assets/card1img.jpeg';
 import card2 from '../assets/punjabi.png';
@@ -23,7 +29,8 @@ import show4 from '../assets/show5.png';
 import show1 from '../assets/show1.png';
 
 const Content = () => {
-  
+      
+
   const cards1 = [
     {
       image: card3,
@@ -192,10 +199,13 @@ const Content = () => {
       text: 'Hottest hindi music that India is listening...',
     },
   ];
+
+
   return (
-    <div className='p-3 pb-0' id="Content1">
+    <div className='pb-0' id="Content1">
       <div id="container">
-        <div className='d-flex gap-2' id="bit">
+
+        <div className='d-flex gap-2' id="bit" >
           <button className='btn btn-light rounded-pill'>All</button>
           <button className='btn btn-light rounded-pill'>Music</button>
           <button className='btn btn-light rounded-pill'>Podcasts</button>
@@ -258,7 +268,7 @@ const Content = () => {
           </div>
           </div>
 
-          <div id="charts" className='mt-4'>
+          <div id="charts" className='mt-4' style={{marginBottom:"100px"}}>
           <div className='d-flex justify-content-between align-items-baseline me-4'>
             <h3 className='mb-3'>Shows to try</h3>
             <a href="#show" className='text-decoration-none text-light'>Show all</a>
@@ -273,7 +283,7 @@ const Content = () => {
             ))}
           </div>
           </div>
-
+            <hr style={{opacity:"0.2"}}/>
           <div className="d-flex justify-content-between" id="Footer">
             <div className="d-flex flex-column gap-2">
               <h6>Company</h6>
@@ -287,14 +297,14 @@ const Content = () => {
             <div className="d-flex flex-column gap-2">
               <h6>Spotify Plans</h6>
               <a href="">Premium Individual</a><a href="">Premium Duo</a><a href="">Premium Family</a><a href="">Premium Student</a><a href="">Spotify Free</a></div>
-            <div className="d-flex ">
-              <a href=""></a>
-              <a href=""></a>
-              <a href=""></a>
+            <div className="d-flex gap-3" id="social">
+              <a href=""><FaInstagram size={20}/></a>
+              <a href=""> <FaTwitter size={20}/></a>
+              <a href=""><FaFacebook size={20}/></a>
             </div>
           </div>
-
-          <div className='d-flex justify-content-between mb-5 me-4 foot'>
+               <hr style={{opacity:"0.2"}}/>
+          <div className='d-flex justify-content-between mt-5 mb-5 me-4 foot'>
             <div className='d-flex gap-3'><a href="">Legal</a><a href="">Safety & Privacy Center</a><a href="">Privacy Policy</a><a href="">Cookies</a><a href="">About Ads</a><a href="">Accessibility</a></div>
             <div className='copy'>&copy; 2025 Spotify AB</div>
           </div>
