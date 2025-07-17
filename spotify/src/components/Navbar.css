@@ -87,3 +87,20 @@ nav{
     border-radius: 50%;
     text-align: center;
 }
+@media (max-width:500px){
+    #left{
+        gap: 10px;
+        margin: 0;
+    }
+    .icons{
+        font-size:25px ;
+    }
+    .search{
+        width:280px;
+        /* padding: 5px; */
+        input{
+            width:220px;
+
+        }
+    }
+}

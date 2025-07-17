@@ -2,15 +2,19 @@ import React from 'react';
 import './Sidebar.css';
 import library from '../assets/library_icon.png';
 import { FaPlus} from 'react-icons/fa';
+import {FaDownload ,FaBell ,FaUser} from 'react-icons/fa';
 
 const Sidebar = () => {
   return (
     <div id="library">
-        <div id="inner">
-
+        <div id="inner" className='d-md-none d-block justify-content-center align-items-center gap-3'>
+            <div className='mt-3 install pb-3'><img src={library} height="20px"/></div>
+            <div className='d-flex install pb-3 ps-1'><FaDownload/></div>
+            <div className='icon2 install pb-3 ' title='Notifications'><FaBell size={24}/></div>
+            <div className='user install me-1'><FaUser/></div>
         </div>
 
-        <div id="outer" className="d-none d-md-block m-auto">
+        <div id="outer" className="d-none d-md-block m-auto z-5">
             <div className="d-flex justify-content-between align-items-baseline m-auto pt-1 pb-1 mb-3">
                 
                 <div id="lib_header" className="d-flex align-items-baseline m-auto">

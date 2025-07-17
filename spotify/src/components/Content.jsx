@@ -284,8 +284,8 @@ const Content = () => {
           </div>
           </div>
             <hr style={{opacity:"0.2"}}/>
-          <div className="d-flex justify-content-between" id="Footer">
-            <div className="d-flex flex-column gap-2">
+          <div className="d-flex md-justify-content-between justify-content-around flex-wrap" id="Footer">
+            <div className="d-flex flex-column md-gap-2">
               <h6>Company</h6>
               <a href="">About</a><a href="">Jobs</a><a href="">For the Records</a></div>
             <div className="d-flex flex-column gap-2">
@@ -304,7 +304,7 @@ const Content = () => {
             </div>
           </div>
                <hr style={{opacity:"0.2"}}/>
-          <div className='d-flex justify-content-between mt-5 mb-5 me-4 foot'>
+          <div className=' justify-content-between mt-5 mb-5 me-4 foot d-none d-md-flex'>
             <div className='d-flex gap-3'><a href="">Legal</a><a href="">Safety & Privacy Center</a><a href="">Privacy Policy</a><a href="">Cookies</a><a href="">About Ads</a><a href="">Accessibility</a></div>
             <div className='copy'>&copy; 2025 Spotify AB</div>
           </div>

@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from './components/Navbar.jsx';
 import Sidebar from './components/Sidebar.jsx';
 import Content from './components/Content.jsx';
+import Footer from './components/SoundBox.jsx';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <div id="sidebar"><Sidebar/></div>
           <div id="content"><Content/></div>
        </div>
+       <div id="soundbox"><Footer/></div>
     </>
   )
 }
